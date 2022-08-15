@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <title>Keywords Recommandation</title>
+    <head>
+        <link rel="stylesheet" href="static/css/main.css">
+        <div class='welcome'><h1>Keywords Recommandation - StackOverFlow Q&A</h1></div>
+    </head>
+
+<div class='container'>
+    <div class='window'>
+        <div class='overlay'></div>
+        <div class='content'>
+            <body>
+            <div class='subtitle'>
+                <p>Write the text to obtain the best keywords to add at your StackoverFlow posts.</p>
+            </div>
+            <div class='input-fields'>
+            <form action="/submit", method="POST" enctype="multipart/form-data">
+                <textarea name="text" rows="6" class="input-line full-width" id="text" required placeholder="Your question"></textarea>
+                <div><button class='ghost-round full-width'>Submit</button></div>
+            </form>
+        </div>
+        </br>
+    </br>
+    <div class="result">
+        {{ prediction_text }}
+    </div>
+    </body>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <em>Developped by LO, Machine Learning Engineer</em>
+    </footer>
+</html>

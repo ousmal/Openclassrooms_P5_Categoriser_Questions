@@ -111,6 +111,11 @@ print("Prediction finished!")
 print("done in %0.3fs." % (time() - t0))
 print("-----------------------------")
 
+print("Evaluation of the model:\n ")
+t0 = time()
+print_score(y_pred, y_test)
+print("done in %0.3fs." % (time() - t0))
+print("-----------------------------")
 
 ######################################
 ############MODEL SAVING##############
