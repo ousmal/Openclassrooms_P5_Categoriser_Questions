@@ -2,7 +2,6 @@
 
 Le projet de ce notebook a été réalisé dans le cadre de la formation d'[ingénieur machine learning proposé par Openclassrooms](https://openclassrooms.com/fr/paths/148-ingenieur-machine-learning).
 
-
 Il portait sur les développement d'une API de suggestion de tags à destination des utilisateur de Stack Overflow. 
 Il a étét l'occasion de mettre en oeuvre des méthodes de NLP. Ce repository porte sur le développement de l'API poru rpondre au besoin. 
 [Un second repository]([https://github.com/ousmal/Openclassrooms_P5_Categoriser_Questions](https://github.com/ousmal/Openclassrooms_P5_API_Categoriser_Questions)) contient les travaux de déploiement de l' API et sa mettre en production
